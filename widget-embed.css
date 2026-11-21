@@ -9,8 +9,19 @@ body,
   overflow: hidden;
 }
 
+html,
+body {
+  background: transparent;
+}
+
+#root {
+  border-radius: 25px;
+  clip-path: inset(0 round 25px);
+}
+
 .quiz-main {
   width: 100%;
+  border-radius: 25px;
   scrollbar-width: thin;
   scrollbar-color: #bcae9f #fffdf9;
 }
