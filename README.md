@@ -2,6 +2,12 @@
 
 Glow Getter Collective’s responsive “Find Your Glow” HTML widget.
 
+Live widget: https://jhowlettconsulting-maker.github.io/gg-find-your-glow/
+
+In Wix Studio, add an **Embed Site** element and use the live widget URL. Adjust its height at each breakpoint and preview the full quiz before publishing.
+
+GitHub Pages serves the `main` branch from the repository root. `.nojekyll` keeps the HTML and bundled JavaScript unchanged during deployment.
+
 ## Files
 
 - `gg-find-your-glow-responsive.html` — the supplied widget, exported from the open browser attachment.
